@@ -6,6 +6,7 @@ import {FC, Fragment, memo, useCallback, useMemo, useState} from 'react';
 
 import {SectionId} from '../../data/data';
 import {useNavObserver} from '../../hooks/useNavObserver';
+import LightbulbIcon from '../Icon/LightbulbIcon';
 
 export const headerID = 'headerNav';
 
@@ -33,22 +34,30 @@ const Header: FC = memo(() => {
 const DesktopNav: FC<{navSections: SectionId[]; currentSection: SectionId | null}> = memo(
   ({navSections, currentSection}) => {
     const baseClass =
-      '-m-1.5 p-1.5 rounded-md font-bold first-letter:uppercase hover:transition-colors hover:duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 sm:hover:text-orange-500 text-neutral-100';
+      'px-4 py-2 rounded-md font-bold first-letter:uppercase hover:transition-colors hover:duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 sm:hover:text-orange-500 text-neutral-100';
     const activeClass = classNames(baseClass, 'text-orange-500');
     const inactiveClass = classNames(baseClass, 'text-neutral-100');
     return (
-      <header className="fixed top-0 z-50 hidden w-full bg-neutral-900/50 p-4 backdrop-blur sm:block" id={headerID}>
-        <nav className="flex justify-center gap-x-8">
-          {navSections.map(section => (
-            <NavItem
-              activeClass={activeClass}
-              current={section === currentSection}
-              inactiveClass={inactiveClass}
-              key={section}
-              section={section}
-            />
-          ))}
-        </nav>
+      <header className="fixed top-6 left-1/2 z-50 hidden -translate-x-1/2 transform sm:block" id={headerID}>
+        <div className="flex items-center rounded-full bg-neutral-900/90 px-6 py-3 shadow-lg backdrop-blur-lg">
+          <Link href="/" className="flex items-center gap-x-3 pr-16 border-r border-neutral-700 focus:outline-none">
+            <span className="inline-flex items-center justify-center rounded-full bg-orange-900/20" style={{ width: 40, height: 40 }}>
+              <LightbulbIcon className="h-7 w-7 text-orange-400" />
+            </span>
+            <span className="font-bold text-base text-white whitespace-nowrap">Sareer Ahmed</span>
+          </Link>
+          <nav className="flex items-center gap-x-8 pl-8">
+            {navSections.map(section => (
+              <NavItem
+                activeClass={activeClass}
+                current={section === currentSection}
+                inactiveClass={inactiveClass}
+                key={section}
+                section={section}
+              />
+            ))}
+          </nav>
+        </div>
       </header>
     );
   },

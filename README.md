@@ -1,84 +1,167 @@
-# React JS Resume Website Template
+# Sareer Ahmed - Personal Resume Website
 
-![ReactJS Resume Website Template](resume-screenshot.jpg?raw=true 'ReactJS Resume Website Template')
+![Sareer Ahmed Resume Website](resume-screenshot.jpg?raw=true 'Sareer Ahmed Resume Website')
 
 <div align="center">
 
-<img alt="GitHub release (latest by date including pre-releases" src="https://img.shields.io/github/v/release/tbakerx/react-resume-template?include_prereleases">
+<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/sareersim/react-resume-template?style=flat">
 
-<img alt="GitHub top language" src="https://img.shields.io/github/languages/top/tbakerx/react-resume-template?style=flat">
+<img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/sareersim/react-resume-template/react?style=flat">
 
-<img alt="GitHub Repo forks" src="https://img.shields.io/github/forks/tbakerx/react-resume-template?style=flat&color=success">
+<img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/sareersim/react-resume-template/next?style=flat">
 
-<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/tbakerx/react-resume-template?style=flat&color=yellow">
-
-<img alt="GitHub package.json dependency version (prod)" src="https://img.shields.io/github/package-json/dependency-version/tbakerx/react-resume-template/react?style=flat">
-
-<img alt="Github Repo Sponsors" src="https://img.shields.io/github/sponsors/tbakerx?style=flat&color=blueviolet">
-
-## React based template for software developer-focused resume websites
+## Personal Cybersecurity Resume Website
 
 </div>
 
-### View a [live demo here.](https://reactresume.com)
+### 🌐 [Live Demo](https://your-domain.com) | 📧 [Contact](mailto:sareer.ahmed@outlook.de)
 
-#### If this template has helped you and you'd like to support my work, feel free to [♥️ Sponsor](https://github.com/sponsors/tbakerx) the project
+## About This Project
 
-### 🎉 Version 2 is here! New features:
-1. Completely rebuilt with React and full typescript support
-2. Built on the [Next.js](https://nextjs.org/) framework for easy server side rendering/static generation, image optimization, api routes, and deployment
-3. Styled entirely with [TailwindCss](https://tailwindcss.com/)
-4. Re-organized data population file for customizing site.
-5. Significant improvement/modernization of all site sections
- 
-**Looking for the old version? You can find it [here.](https://github.com/tbakerx/react-resume-template/releases/tag/v1.0.0)**
+This is my personal resume website built with **React**, **Next.js**, and **TypeScript**. The site showcases my expertise in cybersecurity, penetration testing, and offensive security, with a focus on my German professional experience and OSCP certification.
 
-## Description
+### 🎯 Key Features
 
-This is a React based personal resume website template. Built with typescript on the Next.js framework, styled with Tailwind css, and populated with data from a single file, you can easily create, customize and host your own personal website in minutes. Even better, the site is fully mobile-optimized and server-side rendered to ensure fast loading and a clean UI on any device. Read on to learn how to make it your own.
+- **Modern Tech Stack**: Built with React 19, Next.js 14, and TypeScript
+- **Responsive Design**: Fully mobile-optimized with Tailwind CSS
+- **German Localization**: Complete German language support
+- **Professional Focus**: Cybersecurity and penetration testing emphasis
+- **Clean UI**: Modern, professional design with smooth animations
+- **SEO Optimized**: Server-side rendering for better performance
 
-## Make it Your Own!
+## 🛠️ Technology Stack
 
-### 1. Make sure you have what you need
+- **Frontend**: React 19, Next.js 14, TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Heroicons
+- **Deployment**: Vercel (recommended)
+- **Package Manager**: Yarn
 
-To build this website, you will need to have the latest stable versions of Node and Yarn downloaded and installed on your machine. If you don't already have them, you can get Node [here,](https://nodejs.org/en/download/) and Yarn [here.](https://yarnpkg.com/getting-started/install)
+## 📋 Sections
 
-### 2. Fork and download this repo (and star if you like!)
+1. **Hero Section** - Professional introduction with German description
+2. **About** - Personal information and background
+3. **Skills** - Cybersecurity and technical skills with proficiency levels
+4. **Experience** - Professional work history at Mercedes-Benz Tech Innovation and Atruvia AG
+5. **Education** - Academic background from Universität Stuttgart
+6. **Contact** - Multiple contact methods and social links
 
-Next, find the `Fork` button in the top right of this page. This will allow you to make your own copy, for more info on forking repo's see [here.](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository) After this, download to your development machine using the green `Code` button at the top of the repo page.
+## 🚀 Getting Started
 
-### 3. Install dependencies and run
+### Prerequisites
 
-Once you have your own copy of this repo forked and downloaded, open the folder in your favorite terminal and run `yarn install` to install dependencies. Following this, run `yarn dev` to run the project. In your terminal you should be given the url of the running instance (usually http://localhost:3000 unless you have something else running).
+- Node.js (latest LTS version)
+- Yarn package manager
 
-### 4. Customize the data to make it your own
+### Installation
 
-All of the data for the site is driven via a file at `/src/data/data.tsx`. This is where you'll find the existing content, and updating the values here will be reflected on the site. If you have the site running as described above, you should see these changes reflected on save. The data types for all of these items are given in the same folder in the `dataDef.ts` file. Example images can be found at `src/images/` and are imported in the data file. To change, simply update these images using the same name and location, or add new images and update the imports. 
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/sareersim/react-resume-template.git
+   cd react-resume-template
+   ```
 
-### 5. Hook up contact form
-Due to the variety of options available for contact form providers, I've hooked up the contact form only so far as handling inputs and state. Form submission and the actual sending of the email is open to your own implementation. My personal recommendation for email provider is [Sendgrid.](https://sendgrid.com/)
+2. **Install dependencies**
+   ```bash
+   yarn install
+   ```
 
-### 6. Make any other changes you like
+3. **Run the development server**
+   ```bash
+   yarn dev
+   ```
 
-Of course, all of the code is there and nothing is hidden from you so if you would like to make any other styling/data changes, feel free!
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-### 7. Deploy to Vercel and enjoy your new Resume Website
+## 📝 Customization
 
-Deploying your new site to Vercel is simple, and can be done by following their guide [here.](https://vercel.com/guides/deploying-nextjs-with-vercel) When you're all done and the build succeeds, you should be given a url for your live site, go there and you'll see your new personal resume website! Congratulations!
+### Personal Information
+All personal data is stored in `/src/data/data.tsx`. Update the following sections:
 
-## Project Created & Maintained By
+- **Hero Section**: Name, description, and call-to-action buttons
+- **About Section**: Profile image, description, and personal details
+- **Skills**: Technical skills with proficiency levels
+- **Experience**: Work history and achievements
+- **Education**: Academic background
+- **Contact**: Contact information and social links
 
-### Tim Baker
+### Images
+- Profile picture: `src/images/profilepic.jpg`
+- Hero background: `src/images/header-background.webp`
+- Testimonial image: `src/images/testimonial.webp`
 
-<a href="https://twitter.com/timbakerx"><img src="https://github.com/aritraroy/social-icons/blob/master/twitter-icon.png?raw=true" width="60"></a><a href="https://instagram.com/tbakerx"><img src="https://github.com/aritraroy/social-icons/blob/master/instagram-icon.png?raw=true" width="60"></a>
+### Styling
+The site uses Tailwind CSS for styling. Custom styles can be added in:
+- `src/styles/globals.css`
+- Component-specific styling in individual component files
 
-[![GitHub followers](https://img.shields.io/github/followers/tbakerx.svg?style=social&label=Follow)](https://github.com/tbakerx/)
+## 🎨 Design Features
 
-## Stargazers
+- **Header Navigation**: Professional header with logo and navigation links
+- **Responsive Grid Layout**: Clean, organized sections that adapt to all screen sizes
+- **Card-based Design**: Modern card layouts for better content organization
+- **Smooth Animations**: Subtle animations for enhanced user experience
+- **Professional Color Scheme**: Dark theme optimized for cybersecurity professionals
 
-[![Stargazers repo roster for @tbakerx/react-resume-template](https://reporoster.com/stars/dark/tbakerx/react-resume-template)](https://github.com/tbakerx/react-resume-template/stargazers)
+## 📱 Mobile Optimization
 
-## Forkers
+The website is fully responsive and optimized for:
+- Desktop computers
+- Tablets
+- Mobile phones
+- All modern browsers
 
-[![Forkers repo roster for @tbakerx/react-resume-template](https://reporoster.com/forks/dark/tbakerx/react-resume-template)](https://github.com/tbakerx/react-resume-template/network/members)
+## 🚀 Deployment
+
+### Vercel (Recommended)
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Deploy automatically on every push
+
+### Other Platforms
+The site can be deployed to any platform that supports Next.js:
+- Netlify
+- AWS Amplify
+- DigitalOcean App Platform
+- Self-hosted servers
+
+## 📞 Contact Information
+
+- **Email**: sareer.ahmed@outlook.de
+- **Phone**: +49 173 4846735
+- **Location**: Leinfelden-Echterdingen, Deutschland
+- **LinkedIn**: [linkedin.com/in/sarerism](https://www.linkedin.com/in/sarerism/)
+- **GitHub**: [github.com/sarerism](https://github.com/sarerism)
+- **HackerOne**: [hackerone.com/cahn](https://hackerone.com/cahn)
+
+## 🔒 Security
+
+This website is built with security best practices:
+- No sensitive information in client-side code
+- Secure deployment practices
+- Regular dependency updates
+- HTTPS enforcement
+
+## 📄 License
+
+This project is based on the [React Resume Template](https://github.com/tbakerx/react-resume-template) by Tim Baker, customized for personal use.
+
+## 🙏 Acknowledgments
+
+- Original template by [Tim Baker](https://github.com/tbakerx)
+- Icons by [Heroicons](https://heroicons.com/)
+- Styling with [Tailwind CSS](https://tailwindcss.com/)
+
+---
+
+<div align="center">
+
+**Built with ❤️ by Sareer Ahmed**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sarerism/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sarerism)
+[![HackerOne](https://img.shields.io/badge/HackerOne-494649?style=for-the-badge&logo=hackerone&logoColor=white)](https://hackerone.com/cahn)
+
+</div>
 

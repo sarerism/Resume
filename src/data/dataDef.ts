@@ -1,5 +1,7 @@
+/// <reference types="react" />
 import {StaticImageData} from 'next/image';
 import {FC, ForwardRefExoticComponent, SVGProps} from 'react';
+import type { JSX } from 'react';
 
 import {IconProps} from '../components/Icon/Icon';
 
